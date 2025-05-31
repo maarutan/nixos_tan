@@ -1,5 +1,6 @@
 {
-  import = [
+  imports = [
     ./flameshot.nix
+    ./python.nix
   ];
 }
