@@ -31,6 +31,7 @@
       swww
       bc
       figlet
+      grub2
       fastfetch
       terminus_font
       ascii-image-converter
