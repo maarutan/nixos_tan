@@ -14,7 +14,7 @@
       nwg-look
       telegram-desktop
 
-      # CLI utils
+      # ( CLI / TUI ) utils
       ly
       psmisc
       wget
@@ -46,6 +46,9 @@
       grim
       slurp
       unzip
+      wiki-tui
+      youtube-tui
+      obs-studio
 
       # Coding stuff
       go
@@ -53,16 +56,17 @@
       nodejs_24
       rustup
       git
-      # python314
-      python311
+      python314
+      # python311
       lua
 
       # WM stuff
-      waybar
+      waybar # only for (WAYLAND)
+      hyprswitch # only for (WAYLAND + Hyprland)
       libsForQt5.xwaylandvideobridge
       libnotify
-      xdg-desktop-portal-gtk
-      xdg-desktop-portal-hyprland
+      xdg-desktop-portal-gtk # only for (WAYLAND)
+      xdg-desktop-portal-hyprland # only for (WAYLAND + Hyprland)
     ]
     ++ (with nixpkgs_unstable; [
       # Desktop apps

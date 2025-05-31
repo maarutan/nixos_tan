@@ -18,6 +18,5 @@
     ./tty_console.nix
     ./nix-ld.nix
     ./home_manager.nix
-    ./version.nix
   ];
 }
