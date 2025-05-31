@@ -15,18 +15,22 @@
       #   useOSProber = true;
       # };
 
-      efi = {
-        efiSysMountPoint = "/boot";
-        canTouchEfiVariables = true;
-      };
+      # efi = {
+      #   efiSysMountPoint = "/boot";
+      #   canTouchEfiVariables = true;
+      # };
     };
   };
+
   boot.loader.grub = {
     enable = true;
     version = 2;
     efiSupport = true;
     efiInstallAsRemovable = true;
-    devices = ["/dev/sda"]; # Укажите вашу флешку
-    useOSProber = false;
+    devices = ["/dev/sda"];
+  };
+
+  boot.loader.efi = {
+    canTouchEfiVariables = false;
   };
 }
