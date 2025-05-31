@@ -1,0 +1,5 @@
+{
+  import = [
+    ./flameshot.nix
+  ];
+}

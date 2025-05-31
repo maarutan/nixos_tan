@@ -1,0 +1,23 @@
+{
+  imports = [
+    ./boot.nix
+    ./kernel.nix
+    ./locales.nix
+    ./environments.nix
+    ./networking.nix
+    ./user.nix
+    ./time.nix
+    ./audio.nix
+    ./bluetooth.nix
+    ./shell.nix
+    ./fonts.nix
+    ./nix_settings.nix
+    ./display_manager.nix
+    ./desktop.nix
+    ./ssh.nix
+    ./tty_console.nix
+    ./nix-ld.nix
+    ./home_manager.nix
+    ./version.nix
+  ];
+}
