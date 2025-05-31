@@ -17,6 +17,7 @@
     ./ssh.nix
     ./tty_console.nix
     ./nix-ld.nix
+    ./udisks.nix
     ./home_manager.nix
   ];
 }

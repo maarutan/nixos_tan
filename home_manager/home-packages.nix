@@ -21,8 +21,8 @@
       wl-clipboard # clipboard manager for ( WAYLAND )
       cliphist # clipboard history for ( WAYLAND )
       dunst
-      neovim
-      yazi
+      neovim # editor ( tui )
+      yazi # file manager ( tui )
       ripgrep
       pulseaudio
       brightnessctl
@@ -63,6 +63,7 @@
       lua
 
       # WM stuff
+
       waybar # only for (WAYLAND)
       hyprswitch # only for (WAYLAND + Hyprland)
       libsForQt5.xwaylandvideobridge
