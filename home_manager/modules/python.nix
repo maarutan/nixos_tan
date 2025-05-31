@@ -1,8 +1,7 @@
 {pkgs, ...}: {
   home.packages = [
-    (pkgs.python3.withPackages (ps:
-      with ps; [
-        screeninfo
-      ]))
+    (pkgs.python314.withPackages (ppkgs: [
+      ppkgs.screeninfo
+    ]))
   ];
 }

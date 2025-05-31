@@ -53,7 +53,8 @@
       nodejs_24
       rustup
       git
-      python314
+      # python314
+      python311
       lua
 
       # WM stuff
