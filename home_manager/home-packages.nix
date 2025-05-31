@@ -13,6 +13,7 @@
       pavucontrol
       nwg-look
       telegram-desktop
+      nemo
 
       # ( CLI / TUI ) utils
       ly
