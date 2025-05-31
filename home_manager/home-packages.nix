@@ -24,6 +24,7 @@
       dunst
       neovim # editor ( tui )
       yazi # file manager ( tui )
+      parted
       ripgrep
       pulseaudio
       brightnessctl
