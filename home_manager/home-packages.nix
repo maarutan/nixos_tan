@@ -49,6 +49,8 @@
       wiki-tui
       youtube-tui
       obs-studio
+      mpv
+      ffmpeg
 
       # Coding stuff
       go
