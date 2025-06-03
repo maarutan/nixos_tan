@@ -9,7 +9,6 @@
     [
       # Desktop apps
       kitty
-      firefox
       pavucontrol
       nwg-look
       telegram-desktop
@@ -76,6 +75,7 @@
     ]
     ++ (with nixpkgs_unstable; [
       # Desktop apps
+      firefox
       rofi
 
       # CLI utils
