@@ -1,7 +1,11 @@
 {pkgs, ...}: {
   # boot.kernelPackages = pkgs.linuxPackages_zen;
-  # boot.kernelPackages = pkgs.linuxPackages_latest;
+  # loot.kernelPackages = pkgs.linuxPackages_latest;
 
-  boot.kernelPackages = pkgs.linuxPackages_xanmod_stable;
+  boot.kernelPackages = pkgs.linuxPackages_stable;
+
   hardware.firmware = with pkgs; [linux-firmware];
+  hardware.enableAllFirmware = true;
+
+  boot.kernelParams = ["iwlwifi.disable_11ax=1"];
 }
