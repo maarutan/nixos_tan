@@ -6,7 +6,7 @@
     ./environments.nix
     ./networking.nix
     ./user.nix
-    ./time.nix
+    ./timezone.nix
     ./audio.nix
     ./bluetooth.nix
     ./shell.nix
