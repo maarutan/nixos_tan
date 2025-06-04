@@ -22,6 +22,7 @@
       cliphist # clipboard history for ( WAYLAND )
       dunst
       neovim # editor ( tui )
+      linuxHeaders
       yazi # file manager ( tui )
       parted
       ripgrep
